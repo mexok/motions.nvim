@@ -5,6 +5,7 @@ function M.setup(config)
     fun! SetMotionsKeymaps()
         nnoremap <nowait><buffer> d x
         xnoremap <nowait><buffer> d x
+        nnoremap <nowait><buffer> D "_D
         xnoremap <nowait><buffer> D "_x
         nnoremap <nowait><buffer> s "_s
         xnoremap <nowait><buffer> s "_s
