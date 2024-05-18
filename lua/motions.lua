@@ -23,6 +23,7 @@ function M.setup(config)
     augroup set_motions_keymaps
         autocmd!
         autocmd BufRead,BufNewFile,FilterReadPre,FileReadPre * :call SetMotionsKeymaps()
+        autocmd FileType * :call SetMotionsKeymaps()
     augroup end
 
     call SetMotionsKeymaps()
