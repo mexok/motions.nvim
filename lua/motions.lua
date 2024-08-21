@@ -15,6 +15,8 @@ function M.setup(config)
         xnoremap <nowait><buffer> C <esc>viW
         nnoremap <nowait><buffer> x V
         xnoremap <nowait><buffer> x vvV
+        nnoremap <nowait><buffer> V v$<left>
+        xnoremap <nowait><buffer> V $<left>
         nnoremap <nowait><buffer> y yl
         nnoremap <nowait><buffer> Y v$<left>y
         xnoremap <nowait><buffer> y y
